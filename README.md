@@ -35,7 +35,7 @@ SOLUTION
 ENCODING THE OBJECT VALUES OF FEATURES TO NUMERICAL VALUES
   
   -label encoder is imported from sklearn. preprocessing and train data is encoded
-
+  
 HEAT MAP
   
   - a heatmap is plotted on the correlation matrix of features
@@ -43,8 +43,67 @@ HEAT MAP
 TRAIN TEST SPLIT
   -using train_test_split the train data is splitted into a ratio of 80:20
   
- STANDARD SCALER
- 
+STANDARD SCALER
+  
   -using standard scaler all values are reduced to a standard scale
   
- -
+USING DIMENSIONALITY REDUCTION ALGORITHM- PRINCIPLE COMPONENT ANALYSIS (PCA) TO REDUCE DIMESIONS (FEATURES)
+  
+  -PCA is applied on the standardized data and 23 principle components are retrived from 23 features
+ 
+  -then a graph of cumulative explained variance ratio and explained variance ratio for all 23 principle components is          plotted to observe which principle components carry least information and can be dropped
+  
+  - by observation last 4 principle components have minimum explained variance ratio thus they are dropped
+  
+  -using left nineteen principle components and kMeans to 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
