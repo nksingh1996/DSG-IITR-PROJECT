@@ -85,9 +85,14 @@ USING DIMENSIONALITY REDUCTION ALGORITHM- PRINCIPLE COMPONENT ANALYSIS (PCA) TO 
  IMPORTING THE DATA TO BE PREDICTED(AS Test) THEN
  
  -Test data is analyesd by plotting pie charts and descrbing radius and weight features
+ 
  -veil-type feature is removed
+ 
  -Test data is encoded to numerical values and reduced to standard scale
+ 
  -Test data is predicted using SVC and decision tree
+ 
+       ==============================================THANK YOU==================================================
   
   
   
