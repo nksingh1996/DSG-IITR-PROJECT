@@ -40,8 +40,7 @@ HEAT MAP
   
   - a heatmap is plotted on the correlation matrix of features
  
-TRAIN TEST SPLIT
-  -using train_test_split the train data is splitted into a ratio of 80:20
+SEPARATING FEATURES AND CLASS AS X & Y RESPECTIVELY
   
 STANDARD SCALER
   
@@ -55,11 +54,40 @@ USING DIMENSIONALITY REDUCTION ALGORITHM- PRINCIPLE COMPONENT ANALYSIS (PCA) TO 
   
   - by observation last 4 principle components have minimum explained variance ratio thus they are dropped
   
-  -using left nineteen principle components and kMeans to 
+  -using first nineteen principle components and kMeans to find clusters on the 19 dimensional data
   
+  -plotting the clusters on 2-D pairplots using combinations of first three principle componenents( 0 & 1, 1 & 2, 0 & 2)
+ 
+ 
+  TRAIN TEST SPLIT
+  -using train_test_split, the train data is splitted into a ratio of 80:20 for trainig and testing the classification model
   
+  FOLLOWING MODELS ARE IMPORTED AND TRAINED ON TRAIN DATA(80% OF X) AND TESTED ON TEST DATA(20% 0F X):
   
+  -LOGISTIC REGRESSION
   
+  -LINEAR SVC
+  
+  -RANDOM FOREST CLASSIFIER
+  
+  -K NEIGHBOURS CLASSIFIER
+  
+  -GAUSSIAN NB
+  
+  -PERCEPTRON
+  
+  -SDG CLASSIFIER
+  
+  -DESIGN TREE CLASSIFIER
+  
+ COMPARING THE ACCURACIES OF THE MODELS SVC AND DECISION TREE PERFORMS BEST ON BOTH THE TRAIN AND TEST DATA AND THUS SELECTED FOR THE CLASSIFICATION PROBLEM
+ 
+ IMPORTING THE DATA TO BE PREDICTED(AS Test) THEN
+ 
+ -Test data is analyesd by plotting pie charts and descrbing radius and weight features
+ -veil-type feature is removed
+ -Test data is encoded to numerical values and reduced to standard scale
+ -Test data is predicted using SVC and decision tree
   
   
   
